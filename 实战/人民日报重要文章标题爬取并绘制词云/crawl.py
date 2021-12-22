@@ -35,7 +35,7 @@ def crawler(html):
         ele_y = ele.location.get('y')
         browser.execute_script("arguments[0].scrollIntoView();", ele)  # 滚动至该按钮可见位置
 
-        with open('./source_page_1.html', 'w', encoding='utf-8') as fp:
+        with open('source_page\\source_page_1.html', 'w', encoding='utf-8') as fp:
             fp.write(browser.page_source)
         print('源文件 {} 爬取完成'.format(1))
         """
@@ -48,7 +48,7 @@ def crawler(html):
             # ActionChains(browser).move_to_element_with_offset(button, 500, 10).click().perform()
             button.click()
             time.sleep(1)  # 停止两秒
-            with open('./source_page_{}.html'.format(i + 2), 'w', encoding='utf-8') as fp:
+            with open('source_page\\source_page_{}.html'.format(i + 2), 'w', encoding='utf-8') as fp:
                 fp.write(browser.page_source)
             print('源文件 {} 爬取完成'.format(i + 2))
     finally:
@@ -61,7 +61,8 @@ def trans_CN(text):
     # 分词后在单独个体之间加上空格
     result = " ".join(word_list)
     result = result.replace('和', '').replace('的', '').replace('图片', '').replace('谈', '').replace('月', '').replace('以',
-                                                                                                                  '')
+                                                                                                                  '').replace(
+        '同', '').replace('向', '')
 
     return result
 
@@ -87,10 +88,14 @@ def draw():
     with open("a.txt") as fp:
         text = fp.read()
         text = trans_CN(text)
-        mask = np.array(image.open("pic.png"))
+        mask = np.array(image.open("pic.bmp"))  # 图片的底一定要是白色的
         wordcloud = WordCloud(
             mask=mask,
-            font_path="C:\\Windows\\Fonts\\simhei.ttf"
+            font_path="C:\\Windows\\Fonts\\simhei.ttf",
+            background_color="white",
+            scale=32,
+            mode="RGBA",
+            colormap='autumn'
         ).generate(text)
         image_produce = wordcloud.to_image()
         image_produce.show()
