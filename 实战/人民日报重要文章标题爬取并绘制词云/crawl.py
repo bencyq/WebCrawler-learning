@@ -1,6 +1,5 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
 from wordcloud import WordCloud
 import PIL.Image as image
@@ -16,8 +15,6 @@ def crawler(html):
         browser.get(html)
         eles = browser.find_elements_by_class_name('prev')  # 找到该按钮
         ele = eles[0]
-        ele_x = ele.location.get('x')
-        ele_y = ele.location.get('y')
         browser.execute_script("arguments[0].scrollIntoView();", ele)  # 滚动至该按钮可见位置
 
         with open('source_page\\source_page_1.html', 'w', encoding='utf-8') as fp:
@@ -69,8 +66,25 @@ def analyse():
             fp.write('\n')
 
 
-def draw():
-    with open("a.txt") as fp:
+def analyse2():
+    text = []
+    for i in range(271, 367):
+        print(f'\r第{i}页解析中。。。', end='')
+        with open('source_page\\source_page_{}.html'.format(i), 'r', encoding='utf-8')as fp:
+            file = fp.read()
+        soup = BeautifulSoup(file, 'lxml')
+        temp = soup.find_all(attrs={'class': 'news-list'})
+        for th in temp:
+            for t in th.find_all('a'):
+                text.append(t.text)
+    with open('271-367.txt', 'w') as fp:
+        for t in text:
+            fp.write(t)
+            fp.write('\n')
+
+
+def draw(file):
+    with open(file) as fp:
         text = fp.read()
         text = trans_CN(text)
         mask = np.array(image.open("pic.bmp"))  # 图片的底一定要是白色的
@@ -84,10 +98,10 @@ def draw():
         ).generate(text)
         image_produce = wordcloud.to_image()
         image_produce.show()
-        image_produce.save('result.png')
+        image_produce.save(f'{file[:-4]}-result.png')
 
 
 if __name__ == '__main__':
     # crawler('http://paper.people.com.cn/rmrb/html/2021-12/21/nbs.D110000renmrb_01.htm')
-    # analyse()
-    draw()
+    analyse()
+    draw("result.txt")
