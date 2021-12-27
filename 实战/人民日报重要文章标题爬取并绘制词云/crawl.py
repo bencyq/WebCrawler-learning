@@ -8,21 +8,6 @@ import numpy as np
 import jieba
 
 
-def click_locxy(dr, x, y, left_click=True):
-    '''
-    dr:浏览器
-    x:页面x坐标
-    y:页面y坐标
-    left_click:True为鼠标左键点击，否则为右键点击
-    '''
-    if left_click:
-        ActionChains(dr).move_by_offset(x, y).click().perform()
-        ActionChains(dr).move_by_offset(-x, -y).perform()  # 将鼠标位置恢复到移动前
-    else:
-        ActionChains(dr).move_by_offset(x, y).context_click().perform()
-        ActionChains(dr).move_by_offset(-x, -y).perform()  # 将鼠标位置恢复到移动前
-
-
 def crawler(html):
     chrome_driver = r'D:\anaconda\envs\pytry\Lib\site-packages\selenium\chromedriver.exe'
     browser = webdriver.Chrome(executable_path=chrome_driver)
@@ -71,7 +56,7 @@ def analyse():
     text = []
     for i in range(1, 367):
         print(f'\r第{i}页解析中。。。', end='')
-        with open('./source_page_{}.html'.format(i), 'r', encoding='utf-8')as fp:
+        with open('source_page\\source_page_{}.html'.format(i), 'r', encoding='utf-8')as fp:
             file = fp.read()
         soup = BeautifulSoup(file, 'lxml')
         temp = soup.find_all(attrs={'class': 'news-list'})
