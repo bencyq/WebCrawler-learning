@@ -100,6 +100,6 @@ def draw(texts):
 
 
 if __name__ == '__main__':
-    # crawl()
+    crawl()
     texts = analyse()
     draw(texts)
