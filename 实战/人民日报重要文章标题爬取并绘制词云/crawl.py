@@ -60,7 +60,7 @@ def analyse():
         for th in temp:
             for t in th.find_all('a'):
                 text.append(t.text)
-    with open('a.txt', 'w') as fp:
+    with open('a.txt', 'w', encoding='utf-8') as fp:
         for t in text:
             fp.write(t)
             fp.write('\n')
@@ -83,10 +83,21 @@ def analyse2():
             fp.write('\n')
 
 
-def draw(file):
-    with open(file) as fp:
+def del_word(file):
+    words = ['在', '要', '让', '关于', '最', '前', '走', '致', '关于', '好', '把', '上', '《', '》', '（', '）']
+    with open(file, 'r', encoding='utf-8') as fp:
         text = fp.read()
         text = trans_CN(text)
+        for word in words:
+            text = text.replace(word, '')
+    with open('result.txt', 'w', encoding='utf-8') as fp:
+        fp.write(text)
+
+
+def draw(file):
+    with open(file, encoding='utf-8') as fp:
+        text = fp.read()
+        # text = trans_CN(text)
         mask = np.array(image.open("pic.bmp"))  # 图片的底一定要是白色的
         wordcloud = WordCloud(
             mask=mask,
@@ -103,5 +114,6 @@ def draw(file):
 
 if __name__ == '__main__':
     # crawler('http://paper.people.com.cn/rmrb/html/2021-12/21/nbs.D110000renmrb_01.htm')
-    analyse()
+    # analyse()
+    # del_word("a.txt")
     draw("result.txt")
