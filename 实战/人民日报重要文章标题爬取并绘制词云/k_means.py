@@ -1,5 +1,3 @@
-#!--encoding=utf-8
-
 from __future__ import print_function
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import HashingVectorizer
@@ -20,13 +18,13 @@ def loadDataset():
     return dataset
 
 
-def transform(dataset, n_features=1000):
+def transform(dataset, n_features=1000):  # 将文本转换为向量
     vectorizer = TfidfVectorizer(max_df=0.5, max_features=n_features, min_df=2, use_idf=True)
     X = vectorizer.fit_transform(dataset)
     return X, vectorizer
 
 
-def  train(X, vectorizer, true_k=10, minibatch=False, showLable=False):
+def train(X, vectorizer, true_k=10, minibatch=False, showLable=False):
     # 使用采样数据还是原始数据训练k-means，
     if minibatch:
         km = MiniBatchKMeans(n_clusters=true_k, init='k-means++', n_init=1,
@@ -54,7 +52,7 @@ def  train(X, vectorizer, true_k=10, minibatch=False, showLable=False):
 def test():
     '''测试选择最优参数'''
     dataset = loadDataset()
-    print("%d documents" % len(dataset))
+    print(f"{len(dataset)} documents")
     X, vectorizer = transform(dataset, n_features=500)
     true_ks = []
     scores = []
@@ -75,7 +73,7 @@ def out():
     '''在最优参数下输出聚类结果'''
     dataset = loadDataset()
     X, vectorizer = transform(dataset, n_features=500)
-    score = train(X, vectorizer, true_k=10, showLable=True) / len(dataset)
+    score = train(X, vectorizer, true_k=9, showLable=True) / len(dataset)
     print(score)
 
 
