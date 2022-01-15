@@ -114,6 +114,6 @@ def draw(file):
 
 if __name__ == '__main__':
     # crawler('http://paper.people.com.cn/rmrb/html/2021-12/21/nbs.D110000renmrb_01.htm')
-    # analyse()
-    # del_word("a.txt")
+    analyse()
+    del_word("a.txt")
     draw("result.txt")

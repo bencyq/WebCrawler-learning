@@ -1,0 +1,464 @@
+1642240733218	geckodriver	INFO	Listening on 127.0.0.1:54876
+1642240736301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofilet073Mv"
+1642240736612	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofilet073Mv\\search.json.mozlz4", (void 0)))
+1642240738536	Marionette	INFO	Listening on port 54890
+1642240738967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642240742534	Marionette	INFO	Stopped listening on port 54890
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 4524, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642240773192	geckodriver	INFO	Listening on 127.0.0.1:55010
+1642240776266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofilenIf8EQ"
+1642240776553	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofilenIf8EQ\\search.json.mozlz4", (void 0)))
+1642240778462	Marionette	INFO	Listening on port 55023
+1642240778925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+1642241184522	geckodriver	INFO	Listening on 127.0.0.1:55892
+1642241187591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofilen2h2Jk"
+1642241187934	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofilen2h2Jk\\search.json.mozlz4", (void 0)))
+1642241189957	Marionette	INFO	Listening on port 55904
+1642241190268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642243001267	geckodriver	INFO	Listening on 127.0.0.1:57944
+1642243004320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileFr9HHW"
+1642243004678	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileFr9HHW\\search.json.mozlz4", (void 0)))
+1642243006582	Marionette	INFO	Listening on port 57959
+1642243006991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642243009545	geckodriver	INFO	Listening on 127.0.0.1:58014
+1642243012612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofile440yfK"
+1642243012954	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofile440yfK\\search.json.mozlz4", (void 0)))
+1642243014938	Marionette	INFO	Listening on port 58029
+1642243015284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642243073266	geckodriver	INFO	Listening on 127.0.0.1:58230
+1642243076340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofiley7xmm3"
+1642243076668	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofiley7xmm3\\search.json.mozlz4", (void 0)))
+1642243078590	Marionette	INFO	Listening on port 58240
+1642243079003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642243250971	geckodriver	INFO	Listening on 127.0.0.1:58549
+1642243254048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileBpp9wU"
+1642243254378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileBpp9wU\\search.json.mozlz4", (void 0)))
+1642243256267	Marionette	INFO	Listening on port 58562
+1642243256716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:35
+addAllSources@resource://devtools/server/actors/thread.js:1452:14
+watch@resource://devtools/server/actors/resources/sources.js:49:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:150:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:623:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:529:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1642243736181	Marionette	INFO	Stopped listening on port 58562
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642244043481	geckodriver	INFO	Listening on 127.0.0.1:59222
+1642244046554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileokS9B0"
+1642244046889	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileokS9B0\\search.json.mozlz4", (void 0)))
+1642244048928	Marionette	INFO	Listening on port 59231
+1642244049222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:35
+addAllSources@resource://devtools/server/actors/thread.js:1452:14
+watch@resource://devtools/server/actors/resources/sources.js:49:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:150:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:623:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:529:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642245244413	geckodriver	INFO	Listening on 127.0.0.1:60791
+1642245247475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileqLzBho"
+1642245247846	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileqLzBho\\search.json.mozlz4", (void 0)))
+1642245250081	Marionette	INFO	Listening on port 60802
+1642245250142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:35
+addAllSources@resource://devtools/server/actors/thread.js:1452:14
+watch@resource://devtools/server/actors/resources/sources.js:49:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:150:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:623:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:529:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1642245485063	geckodriver	INFO	Listening on 127.0.0.1:61135
+1642245488103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileQS6f3Y"
+1642245488481	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileQS6f3Y\\search.json.mozlz4", (void 0)))
+1642245490504	Marionette	INFO	Listening on port 61144
+1642245490774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642245691956	geckodriver	INFO	Listening on 127.0.0.1:61596
+1642245695030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofiledRMVyt"
+1642245695407	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofiledRMVyt\\search.json.mozlz4", (void 0)))
+1642245697311	Marionette	INFO	Listening on port 61608
+1642245697679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642245734490	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 2967: TypeError: event.target.closest is not a function
+1642248352921	Marionette	INFO	Stopped listening on port 61608
+[Parent 14628, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+11 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642246840109	geckodriver	INFO	Listening on 127.0.0.1:63153
+1642246843178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileOPbbC8"
+1642246843533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileOPbbC8\\search.json.mozlz4", (void 0)))
+1642246845578	Marionette	INFO	Listening on port 63162
+1642246845872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642247550143	geckodriver	INFO	Listening on 127.0.0.1:63732
+1642247553187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileDSW5Rt"
+1642247553566	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileDSW5Rt\\search.json.mozlz4", (void 0)))
+1642247555651	Marionette	INFO	Listening on port 63745
+1642247555853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642247608670	geckodriver	INFO	Listening on 127.0.0.1:63963
+1642247611751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofile9SJRsK"
+1642247612102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofile9SJRsK\\search.json.mozlz4", (void 0)))
+1642247614124	Marionette	INFO	Listening on port 63981
+1642247614440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642247756473	geckodriver	INFO	Listening on 127.0.0.1:64283
+1642247759565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofilemht7l4"
+1642247759932	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofilemht7l4\\search.json.mozlz4", (void 0)))
+1642247762142	Marionette	INFO	Listening on port 64295
+1642247762280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:35
+addAllSources@resource://devtools/server/actors/thread.js:1452:14
+watch@resource://devtools/server/actors/resources/sources.js:49:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:150:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:623:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:529:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2315))
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642248158131	geckodriver	INFO	Listening on 127.0.0.1:64890
+1642248161185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofileiKQTBl"
+1642248161575	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofileiKQTBl\\search.json.mozlz4", (void 0)))
+1642248163954	Marionette	INFO	Listening on port 64907
+1642248164381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642248277154	Marionette	INFO	Stopped listening on port 64907
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofile7c2iZu"
+1642248272831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofile7c2iZu\\search.json.mozlz4", (void 0)))
+1642248275631	Marionette	INFO	Listening on port 65190
+1642248276073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined

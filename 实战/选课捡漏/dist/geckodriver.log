@@ -1,0 +1,16 @@
+1642248444655	geckodriver	INFO	Listening on 127.0.0.1:1203
+1642248447696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofilettfuU5"
+1642248448030	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofilettfuU5\\search.json.mozlz4", (void 0)))
+1642248450239	Marionette	INFO	Listening on port 1223
+1642248450368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
