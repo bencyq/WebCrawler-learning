@@ -462,3 +462,71 @@ JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_
 JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
 JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
 JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642325051162	geckodriver	INFO	Listening on 127.0.0.1:8658
+1642325054244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MACHEN~1\\AppData\\Local\\Temp\\rust_mozprofile3hvSx0"
+1642325054650	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MACHENIKE\\AppData\\Local\\Temp\\rust_mozprofile3hvSx0\\search.json.mozlz4", (void 0)))
+1642325056502	Marionette	INFO	Listening on port 8675
+1642325056912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+JavaScript error: http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528, line 3: NS_ERROR_NOT_INITIALIZED: 
+1642325252827	Marionette	INFO	Stopped listening on port 8675
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+6
+1642325174828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cas.hdu.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 19: unreachable code after return statement
+JavaScript warning: https://i.hdu.edu.cn/tp_up/resource/plugin/all.mini.js?v=v1_202201, line 309: unreachable code after return statement
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 407: TypeError: data.list[j] is undefined
+JavaScript error: https://i.hdu.edu.cn/tp_up/resource/js/common/plugins/jquery/jquery.min.js?v=v1_202201 line 2 > eval, line 356: TypeError: data[0] is undefined
+1642325204949	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:3:26577
+ajax@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:3:22180
+jQuery[d]@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/zftal/jquery.plugins.contact-min.js?ver=1641528:18:4580
+loadCoursesByPaged@zzxkYzb.js:491:6
+onSearchClick@zzxkYzb.js:98:6
+searchResult@http://newjw.hdu.edu.cn/jwglxt/js/plugins/searchbox/jquery.searchbox.contact-min.js?ver=1641528:2:8267
+dispatch@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:2:12444
+add/r.handle@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:2:9173
+trigger@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:2:11573
+a.event.trigger@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/jquery-migrate.min.js?ver=1641528:1:8270
+trigger/<@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:2:18991
+each@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:1:2881
+each@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:1:846
+trigger@http://newjw.hdu.edu.cn/zftal-ui-v5-1.0.2/assets/js/other_jquery/jquery.min.js?ver=1641528:2:18967
+@http://newjw.hdu.edu.cn/jwglxt/js/comp/jwglxt/xkgl/xsxk/zzxkYzb.js?ver=1641528:189:17
+1642325219324	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1642325221278	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1642325224825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31

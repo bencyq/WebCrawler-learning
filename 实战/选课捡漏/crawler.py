@@ -51,12 +51,12 @@ def crawler():
         print('已找到课程，准备开始捡漏Orz')
         # select_button = browser.find_elements_by_class_name('btn.btn-primary.btn-sm')[-1]
         while True:
-            time.sleep(0.5)
+            # time.sleep(0.3)
             browser.find_elements_by_class_name('btn.btn-primary.btn-sm')[-1].click()
-            time.sleep(0.2)
+            # time.sleep(0.2)
             while True:
                 try:
-                    time.sleep(0.3)
+                    time.sleep(0.5)
                     if '退选' not in browser.find_element_by_class_name('panel-body.table-responsive').text:
                         browser.find_element_by_id('btn_ok').click()
                     else:

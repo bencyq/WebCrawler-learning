@@ -1,0 +1,13 @@
+POST /jwglxt/xsxk/zzxkyzbjk_xkBcZyZzxkYzb.html?gnmkdm=N253512&su=19051509 HTTP/1.1
+Host: newjw.hdu.edu.cn
+Connection: keep-alive
+Content-Length: 562
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+Origin: http://newjw.hdu.edu.cn
+Referer: http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=19051509
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=B732C65B0816C98CE3FB2B5E75509C3D; route=f426d7f9c4fca6b38279ec3fc13d7e6a
